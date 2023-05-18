@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "1st Post",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "Made a Video about Tesla Q1 Results"
+    },
+    {
+      "id": 2,
+      "title": "2nd Post",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "Made a Video about Tesla Q1 Results"
+    },
+    {
+      "id": 4,
+      "title": "4th Post",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "Made a Video about Tesla Q1 Results"
+    },
+    {
+      "id": 5,
+      "title": "6th Post",
+      "datetime": "May 18, 2023 11:28:19 AM",
+      "body": "543"
+    }
+  ]
+}
