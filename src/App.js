@@ -26,11 +26,10 @@ function App() {
   const [editBody, setEditBody] = useState('')
   const navigate = useNavigate()
   const{width}=useWindowSize()
-  const {data,fetchError,isLoading}=useAxiosFetch('http://localhost:3500/posts')
-  useEffect(()=>
-  {
-    setPosts(data)
-  },[data])
+  const { data, fetchError, isLoading } = useAxiosFetch('http://localhost:3500/posts');
+  useEffect(() => {
+    setPosts(data);
+  }, [data])
 
   const handleSubmit = async (e) => {
     e.preventDefault()
